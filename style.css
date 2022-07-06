@@ -174,8 +174,7 @@ body {
     margin: 50px;
 }
 
-#set-button-2 {
-
+.donation-status a {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px;
@@ -242,4 +241,5 @@ body {
 
 .added-footer h6 {
     color: white;
+    padding: 30px;
 }
