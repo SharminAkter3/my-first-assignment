@@ -7,9 +7,9 @@ body {
 }
 
 .donation-banner {
-    background-image: linear-gradient(to bottom, rgba(186, 168, 159, 0.5), rgba(69, 54, 54, 0.818)), url(donation-pic.jpg);
+    background-image: url(donation-pic.jpg);
     background-repeat: no-repeat;
-    background-size: 95% 95%, 95% 95%;
+    background-size: 100% 90%, 90% 100%;
     padding: 250px;
     color: white;
     border-radius: 5px;
@@ -45,7 +45,7 @@ body {
 }
 
 .about-donation {
-    width: 95%;
+    width: 100%;
     display: flex;
 }
 
@@ -105,15 +105,32 @@ body {
 }
 
 .text-area-2 {
-    border: 10px solid blue;
+    border: 10px solid tomato;
     padding: 20px;
     width: 200px;
     height: 10px;
-    background: blue;
+    background: tomato;
     background-clip: padding-box;
     margin-top: 60px;
     margin-left: 0px;
     font-size: 30px;
     color: white;
 
+}
+
+.added-footer {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.added-footer h2 {
+    color: tomato;
+    padding: 10px 20px;
+}
+
+.added-footer h6 {
+    color: white;
 }
