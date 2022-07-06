@@ -75,5 +75,45 @@ body {
     border-radius: 10px;
     margin-left: 0px;
     width: 40%;
+}
+
+.background-area {
+    width: 75%;
+    height: 220px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: 2px solid papayawhip;
+    border-radius: 4px;
+    background-color: papayawhip;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.text-area-1 {
+    border: 10px solid honeydew;
+    padding: 20px;
+    width: 350px;
+    height: 10px;
+    background: honeydew;
+    background-clip: padding-box;
+    margin-right: 0px;
+    font-size: 30px;
+    color: grey;
+}
+
+.text-area-2 {
+    border: 10px solid blue;
+    padding: 20px;
+    width: 200px;
+    height: 10px;
+    background: blue;
+    background-clip: padding-box;
+    margin-top: 60px;
+    margin-left: 0px;
+    font-size: 30px;
+    color: white;
 
 }
