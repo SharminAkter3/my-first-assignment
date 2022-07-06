@@ -3,13 +3,13 @@ body {
     margin: 0px;
     text-align: center;
     font-size: 25px;
-    padding: 50px;
+    padding: 0px;
 }
 
 .donation-banner {
     background-image: url(donation-pic.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 90%, 90% 100%;
+    background-size: 100% 80%, 80% 100%;
     padding: 250px;
     color: white;
     border-radius: 5px;
@@ -32,10 +32,119 @@ body {
 
 }
 
+.amount {
+    display: flex;
+    margin-left: 260px;
+}
+
+.donate-amount {
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 12px;
+}
+
+.donate-amount:hover {
+    border: 5px solid tomato;
+    color: tomato;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.other-amount {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.input-amount {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.other-amount input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 750px;
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+
 .denote-part {
     text-align: center;
     padding: 30px;
 
+}
+
+.set-icon {
+    display: flex;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+
+.first-icon {
+    color: gray;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    height: 300px;
+    width: 700px;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: skyblue;
+}
+
+.first-icon h1 {
+    color: black;
+}
+
+.second-icon {
+    color: gray;
+    border: 1px solid thistle;
+    border-radius: 10px;
+    height: 300px;
+    width: 700px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: thistle;
+}
+
+.second-icon h1 {
+    color: black;
+}
+
+.third-icon {
+    color: gray;
+    border: 1px solid peachpuff;
+    border-radius: 10px;
+    height: 300px;
+    width: 700px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: peachpuff;
+
+
+}
+
+.third-icon h1 {
+    color: black;
 }
 
 .about-suffering {
@@ -112,7 +221,7 @@ body {
     background: tomato;
     background-clip: padding-box;
     margin-top: 60px;
-    margin-left: 0px;
+    margin-left: -10px;
     font-size: 30px;
     color: white;
 
